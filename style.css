@@ -1,38 +1,26 @@
-#page_header{
-  text-align: center;
-  background-color:#3d6488;
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: white
 
+*{
+  box-sizing: border-box;
+  
 }
 
-
-.listbtn{
-  background-color: #3d6488;
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  border-radius: 2px; 
-  margin-left: 20%;
-  margin-right: 20%;
-  width: 60%;
-  margin-top: 2px;
-  margin-bottom: 2px;
-
+body {
+  
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
-
-
-.left_div{
-  /* background-color: #e2d9be;  */
-  height: 100%; 
+h3{
+  font-weight: bold;
 }
-
-.card-body{
-  background-color: #3d6488;
-  color: white;
+.forecast{
+  
+  font-size: 0.9em;
 }
-
-#searchbtn{
-  background-color: #3d6488;
-  color: white;
-  font-family: 'Open Sans Condensed', sans-serif;
-  border-radius: 2px; 
+span{
+  font-size: 1em;
+}
+li:hover{
+  background-color: lightslategray;
+  text-decoration: underline;
+}
