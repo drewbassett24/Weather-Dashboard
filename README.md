@@ -1,4 +1,1 @@
-# Weather-Dashboard
-Description
-Screenshot
-link
+# Weather-Dashboard##DescriptionA deceptively simple app that can provide weather forecasts over a 5-day period for a city of your choosing. The app then stores your search history, though this can be cleared. A UV index is included and should be colour-coded.##ChallengesNever managed to colour-code the UV Index, disappointingly. Also could get rid of the phantom search icons that I seem to appended to something - possibly a group input element. I will strive to colve both. Time management would have helped with this project.Screenshot
