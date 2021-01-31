@@ -13,15 +13,40 @@
   </head>
 
   <body>
-    <header id="page_header" class="container-fluid pt-3 pb-3 text-center"><h1 class="text-white">Weather Dashboard</h1>h1</header>
+    <header id="page_header" class="container-fluid pt-3 pb-3 text-center">
+      <h1 class="text-white">Weather Dashboard</h1>h1</header>
     </header>
     <div class="container">
      <!--Search for city-->
-     
-     
+      <div class ="row">
+        </div class="col-sm-4 bg-light">
+            <!-- HTML Form for inputs -->
+            <h4 class="pt-1"><strong>Search for a City</strong></h4>
+            <!-- Text box for city -->
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" id="search-city" aria-label="City Search" aria-describedby="search-button">
+              <div class="input-grou-append">
+                <button class="btn bg-primary text-light" id="search-button"><i class="fa fa-search"> </button>
+            </div>
+          </div>
+            <!-- search history -->
+            <button class=" btn btn-primary" type="button" id="clear-history">Clear History</button>
+            <ul class="list-group">
+
+              </ul>
+      </div>
+    <div class="col-sm=8">
+      <div class="row ml-2 border border-dark rounded">
+        <divclass="col-sm-12" id="current-weather">
+          <h3 class="city-name mb-1 mt-2 bolder" id="current-city"></h3>
+          <p>Temperature:<span class="current" id="temperature"></span></p>
+          <p>Humidity:<span class="current" id="humidity"></span></p>
+          <p>Wind Speed: <span class="current" id="wind-speed"></span></p>
+          <p>UV index:<span class="current bg-danger rounded py-2 px-2 text-white" id=uv-index></span></p>
+      </div>
+    </div> 
      <!-- Search box here-->
-    
-    
+   
     <!-- Section for the search history -->
   
   
